@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB</title>
+</head>
+
+<body>
+    <div>
+        Please fill out this form to help us improve pur site.
+    </div>
+    <!--this tag starts the form, give the methods of sending 
+        information and the location of the form-processing script  -->
+
+    <form>
+        <p>
+            <label>
+                Name:
+                <input name="name" type="password" size="30em" maxlength="15">
+            </label>
+        <p></p>
+
+        <label>Comments:
+        </label><br>
+        <textarea rows="4" cols="50" placeholder="enter the comment"></textarea>
+        </p>
+
+        <p>
+            <label>E-mail Address:</label>
+            <input name="name" type="mail" size="30em" maxlength="15">
+        </p>
+
+        <p>
+            <b>Things you liked:</b><br>
+            Site design <input type="checkbox" name="1" value="Site design">
+            Links <input type="checkbox" name="2" value="Links">
+            Ease of use <input type="checkbox" name="3" value="Ease of use">
+            Images <input type="checkbox" name="4" value="Images">
+            Source code <input type="checkbox" name="5" value="Source code">
+        </p>
+
+        <p>
+            <b>How did you get to our site?:</b><br>
+            Search engine <input type="radio" name="1" value="Site design" checked>
+            Links from another site <input type="radio" name="2" value="Links">
+            Deitel.com Web site <input type="radio" name="3" value="Ease of use">
+            Reference in a book <input type="radio" name="4" value="Images">
+            Other <input type="radio" name="5" value="Source code">
+        </p>
+
+        <P>
+            Rate our site:
+            <select name="rate">
+                <option value="Awesome">Awesome</option>
+                <option value="Amazing" selected>Amazing</option>
+                <option value="Good">Good</option>
+                <option value="Not bad">Not bad</option>
+                <option value="Bad">Bad</option>
+            </select>
+        </P>
+
+        <P>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </P>
+    </form>
+</body>
+
+</html>
